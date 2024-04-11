@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.svg-container {
+    flex: 85%;
+}
+
+svg {
+    width: 100%;
+}
+
+svg path {
+    cursor: pointer;
+}
+
+svg path:hover {
+    fill: rgb(255, 233, 63);
+    stroke: black;
+}
+
+svg path.clicked {
+    fill: rgb(199, 22, 22);
+    stroke: black;
+}
+
+.data-section {
+    flex: 15%;
+    margin: auto 0;
+    text-align: left;
+}
+
+.data-table td {
+    text-align: left;
+}
+
+.searchBar {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+
+.searchBar th {
+    width: 128px;
+}
+
+.note {
+    margin-top: 20px;
+}
+
